@@ -204,7 +204,7 @@ LOGGING = {
             'handlers': ['console'],
             'level': DEBUG_LEVEL,
             'propagate': True,
-        }
+        },
     },
 }
 
@@ -214,3 +214,5 @@ DATABASES = {
         'NAME': 'db.sqlite3',
     }
 }
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
